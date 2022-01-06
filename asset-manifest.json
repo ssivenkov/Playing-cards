@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Playing-cards/static/css/main.f110173d.chunk.css",
+    "main.js": "/Playing-cards/static/js/main.acdb1400.chunk.js",
+    "main.js.map": "/Playing-cards/static/js/main.acdb1400.chunk.js.map",
+    "runtime-main.js": "/Playing-cards/static/js/runtime-main.3e8e0866.js",
+    "runtime-main.js.map": "/Playing-cards/static/js/runtime-main.3e8e0866.js.map",
+    "static/css/2.9b70a56b.chunk.css": "/Playing-cards/static/css/2.9b70a56b.chunk.css",
+    "static/js/2.b7f91627.chunk.js": "/Playing-cards/static/js/2.b7f91627.chunk.js",
+    "static/js/2.b7f91627.chunk.js.map": "/Playing-cards/static/js/2.b7f91627.chunk.js.map",
+    "static/js/3.3ee5e213.chunk.js": "/Playing-cards/static/js/3.3ee5e213.chunk.js",
+    "static/js/3.3ee5e213.chunk.js.map": "/Playing-cards/static/js/3.3ee5e213.chunk.js.map",
+    "index.html": "/Playing-cards/index.html",
+    "static/css/2.9b70a56b.chunk.css.map": "/Playing-cards/static/css/2.9b70a56b.chunk.css.map",
+    "static/css/main.f110173d.chunk.css.map": "/Playing-cards/static/css/main.f110173d.chunk.css.map",
+    "static/js/2.b7f91627.chunk.js.LICENSE.txt": "/Playing-cards/static/js/2.b7f91627.chunk.js.LICENSE.txt",
+    "static/media/preloader.eb47674d.svg": "/Playing-cards/static/media/preloader.eb47674d.svg",
+    "static/media/threedots.4f35d4d7.svg": "/Playing-cards/static/media/threedots.4f35d4d7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e8e0866.js",
+    "static/css/2.9b70a56b.chunk.css",
+    "static/js/2.b7f91627.chunk.js",
+    "static/css/main.f110173d.chunk.css",
+    "static/js/main.acdb1400.chunk.js"
+  ]
+}
