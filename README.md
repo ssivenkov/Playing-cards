@@ -1,3 +1,8 @@
-1. К проекту подключены плагины EsLint, Prettier
-2. Base url в файле .env
-3. Тестовая страница в компоненте (a1-main/m1-ui/components/TestComponent) 
+# Playing cards
+SPA for learning by cards.
+
+Technologies: CSS, JavaScript, TypeScript, React, Redux, Redux-thunk, Axios, ESLint, Prettier.
+
+Implemented: login page with validation; register page with validation; reset password page with validation; 404 page; profile page with abilities to: edit your profile information (change avatar and nickname), add a new card pack and edit, search, sort, view, remove and learn your card packs; packs list page with abilities to: search, sort, view and learn any card packs; learn page with abilities to answer a question and evaluate your answer
+
+# [Link](https://ssivenkov.github.io/Playing-cards "Link")
