@@ -36,6 +36,11 @@
     color:rgb(79, 98, 108);
 }
 
+.disabledPage {
+    cursor: default;
+    color:rgba(79, 98, 108, .3);
+}
+
 .selectPage {
     border: 2px solid rgb(79, 98, 108);
     color: #fff;

@@ -15,10 +15,6 @@
     cursor: default;
 }
 
-/*.default:focus {*/
-/*    background-color: deepskyblue;*/
-/*}*/
-
 .red {
     background: red;
 }
@@ -41,6 +37,10 @@
 
 .sortButton:last-child {
     margin-left: 10px;
+}
+
+.sortButtonActive {
+    background-color: green;
 }
 
 .deleteButton, .updateButton, .cardButton, .learnButton {

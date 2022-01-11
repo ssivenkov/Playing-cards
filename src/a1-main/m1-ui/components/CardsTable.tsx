@@ -88,9 +88,9 @@ export const CardsTable = (): ReturnComponentType => {
       <div
         className={cards.length === ZERO_LENGTH ? s.cardsBlockWithCards : s.cardsBlock}
       >
-        <BackArrow />
         {!appStatus && (
           <div className={s.titleCardsBlock}>
+            <BackArrow />
             {cards.length === ZERO_LENGTH ? (
               <div className={s.title}>
                 This card pack &quot;{packName}&quot; has no any card
@@ -101,13 +101,13 @@ export const CardsTable = (): ReturnComponentType => {
                 )}
               </div>
             ) : (
-              <div>Card pack &quot;{packName}&quot;</div>
+              <div className={s.title}>Card pack &quot;{packName}&quot;</div>
             )}
           </div>
         )}
         <div className={s.loader}>{appStatus && <Loader />}</div>
         <div className={st.searchAddBlock}>
-          {userId === userIdOwnerThisPack ? (
+          {userId === userIdOwnerThisPack && !appStatus ? (
             <Button type="button" onClick={() => setCreateCardModal(true)}>
               Add Card
             </Button>

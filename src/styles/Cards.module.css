@@ -9,7 +9,9 @@
 }
 
 .selectPacksButtonsContainer {
+    width: 75%;
     display: flex;
+    justify-content: space-between;
 }
 
 .selectPacksButton {
@@ -24,6 +26,10 @@
 
 .selectPacksButtonActive {
     border-bottom: 3px solid #21268F;
+}
+
+.title {
+    margin: 15px 0;
 }
 
 .cardsBlock {
@@ -47,6 +53,9 @@
 }
 
 .titleCardsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px 10px;
     font-size: 18px;
     text-align: center;

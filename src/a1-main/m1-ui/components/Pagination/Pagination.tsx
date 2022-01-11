@@ -85,7 +85,9 @@ export const Pagination: React.FC<PaginationPropsType> = ({
                   }
                 }}
                 disabled={appStatus}
-                className={`${s.page} ${currentPage === page ? s.selectPage : ''}`}
+                className={`${s.page} ${currentPage === page ? s.selectPage : ''} ${
+                  appStatus && s.disabledPage
+                }`}
               >
                 {page}
               </button>

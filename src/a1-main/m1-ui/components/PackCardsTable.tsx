@@ -39,6 +39,7 @@ import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const PacksCardsTable = (): ReturnComponentType => {
   const dispatch = useDispatch();
+  const appStatus = useSelector<AppRootState, boolean>(state => state.app.status);
   const [allPacks, setAllPacks] = useState<boolean>(true);
   const status = useSelector<AppRootState, boolean>(state => state.app.status);
   const AuthUserStatus = useSelector<AppRootState, boolean>(state => state.auth.isAuth);
@@ -104,26 +105,32 @@ export const PacksCardsTable = (): ReturnComponentType => {
     updated: 'updated',
     rating: 'rating',
   };
+
   const addPackCards = (title: string): void => {
     dispatch(createPackCardsTC(title, userId));
     setCreateModal(false);
     setAllPacks(false);
   };
+
   const sortPackCards = (value: string): void => {
     dispatch(SortPackCardsAC(value));
   };
+
   const deletePack = (): void => {
     dispatch(deletePackCardsTC(packId, userId));
     setDeleteModal(false);
   };
+
   const updatePack = (title: string): void => {
     dispatch(updatePackCardsTC(packId, title, userId));
     setUpdateModal(false);
   };
+
   const getAllPacks = (): void => {
     dispatch(setPackCardsTC(EMPTY_STRING));
     setAllPacks(true);
   };
+
   const getMyPacks = (): void => {
     dispatch(setPackCardsTC(userId));
     setAllPacks(false);
@@ -144,7 +151,7 @@ export const PacksCardsTable = (): ReturnComponentType => {
           >
             <Button
               type="button"
-              disabled={!allPacks}
+              disabled={!allPacks || appStatus}
               onClick={getMyPacks}
               className={s.selectPacksButton}
             >
@@ -156,7 +163,7 @@ export const PacksCardsTable = (): ReturnComponentType => {
           >
             <Button
               type="button"
-              disabled={allPacks}
+              disabled={allPacks || appStatus}
               onClick={getAllPacks}
               className={s.selectPacksButton}
             >
@@ -174,7 +181,6 @@ export const PacksCardsTable = (): ReturnComponentType => {
             Add Pack
           </Button>
         </div>
-        {/* {allPacks ? <Search userId={EMPTY_STRING} /> : <Search userId={userId} />} */}
         <UniversalTable
           items={packCards}
           headers={packHeaders}

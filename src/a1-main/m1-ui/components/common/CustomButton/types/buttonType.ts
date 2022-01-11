@@ -8,4 +8,5 @@ export type ButtonType = DefaultButtonPropsType & {
   title?: string;
   className?: string;
   condition?: boolean;
+  id?: string;
 };
