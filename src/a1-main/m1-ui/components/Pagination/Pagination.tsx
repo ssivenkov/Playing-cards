@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import { Button } from '../common/CustomButton/Button';
 
 import { AppRootState } from 'a1-main/m2-bll/store';
-import s from 'styles/Pagination.module.css';
+import s from 'styles/Pagination.module.scss';
 
 type PaginationPropsType = {
   totalItemsCount: number;

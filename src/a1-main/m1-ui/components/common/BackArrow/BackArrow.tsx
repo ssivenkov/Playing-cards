@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import arrowBack from 'assets/images/backArrow.png';
 import { PREVIOUS_PAGE } from 'constants/common';
-import style from 'styles/BackArrow.module.css';
+import style from 'styles/BackArrow.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const BackArrow = (): ReturnComponentType => {

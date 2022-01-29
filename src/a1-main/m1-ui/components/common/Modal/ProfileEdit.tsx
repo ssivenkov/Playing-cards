@@ -8,7 +8,7 @@ import { Input } from '../CustomInput/Input';
 import { AppRootState } from 'a1-main/m2-bll/store';
 import { saveUserDataTC } from 'a1-main/m2-bll/thunks/profile-thunk';
 import { FIRST_ELEMENT } from 'constants/common';
-import s from 'styles/Modal.module.css';
+import s from 'styles/Modal.module.scss';
 import { Nullable } from 'types/Nullable';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 

@@ -9,7 +9,7 @@ import { AppRootState } from 'a1-main/m2-bll/store';
 import { sendMessageOnEmailTC } from 'a1-main/m2-bll/thunks/password-thunk';
 import { emailValidator, EMPTY_STRING, EMAIL, ZERO_LENGTH } from 'constants/common';
 import { PATH } from 'enums/routes';
-import style from 'styles/Login.module.css';
+import style from 'styles/Login.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export type LetterType = {

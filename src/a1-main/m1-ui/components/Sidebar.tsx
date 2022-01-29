@@ -8,7 +8,7 @@ import { LoaderRelative } from './common/LoaderRelative';
 import { setMaxFilter, setMinFilter } from 'a1-main/m2-bll/actions/pack-action';
 import { AppRootState } from 'a1-main/m2-bll/store';
 import { FIRST_ELEMENT, SECOND_ELEMENT, ZERO } from 'constants/common';
-import s from 'styles/Sidebar.module.css';
+import s from 'styles/Sidebar.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 type SideBarType = {

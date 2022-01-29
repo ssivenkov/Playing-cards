@@ -25,8 +25,8 @@ import {
 import { cardsType } from 'a1-main/m3-dal/types/cardsType';
 import { EMPTY_STRING, PORTION_SIZE, ZERO_LENGTH } from 'constants/common';
 import { PATH } from 'enums/routes';
-import s from 'styles/Cards.module.css';
-import st from 'styles/Search.module.css';
+import s from 'styles/Cards.module.scss';
+import st from 'styles/Search.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const CardsTable = (): ReturnComponentType => {

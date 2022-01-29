@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 import { Button } from 'a1-main/m1-ui/components/common/CustomButton/Button';
-import style from 'styles/Button.module.css';
+import style from 'styles/Button.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 type TableActionButtonsType = {

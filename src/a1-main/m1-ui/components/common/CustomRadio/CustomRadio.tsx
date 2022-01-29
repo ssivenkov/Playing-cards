@@ -2,7 +2,7 @@ import React, { ChangeEvent } from 'react';
 
 import { RadioType } from './types/radioType';
 
-import s from 'styles/CustomRadio.module.css';
+import s from 'styles/CustomRadio.module.scss';
 
 const Radio: React.FC<RadioType> = ({
   name,

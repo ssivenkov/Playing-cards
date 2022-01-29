@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Button } from '../CustomButton/Button';
 
-import s from 'styles/Modal.module.css';
+import s from 'styles/Modal.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 type CardDeleteType = {

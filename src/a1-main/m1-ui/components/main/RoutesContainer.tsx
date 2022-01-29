@@ -15,7 +15,7 @@ import { Register } from 'a2-features/f2/Register';
 import { NewPassword } from 'a2-features/f3/NewPassword';
 import { RecoveryPassword } from 'a2-features/f3/RecoveryPassword';
 import { PATH } from 'enums/routes';
-import style from 'styles/Routes.module.css';
+import style from 'styles/Routes.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const RoutesContainer = (): ReturnComponentType => (

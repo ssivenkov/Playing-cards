@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 import { ButtonType } from './types/buttonType';
 
-import style from 'styles/Button.module.css';
+import style from 'styles/Button.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const Button: FC<ButtonType> = ({

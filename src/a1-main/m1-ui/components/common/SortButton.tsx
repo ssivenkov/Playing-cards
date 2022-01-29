@@ -16,8 +16,8 @@ import {
   TENTH_ELEMENT,
   THIRD_ELEMENT,
 } from 'constants/common';
-import style from 'styles/Button.module.css';
-import s from 'styles/Table.module.css';
+import style from 'styles/Button.module.scss';
+import s from 'styles/Table.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 type SortButtonType = {

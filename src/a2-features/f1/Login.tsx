@@ -17,7 +17,7 @@ import {
   ZERO_LENGTH,
 } from 'constants/common';
 import { PATH } from 'enums/routes';
-import style from 'styles/Login.module.css';
+import style from 'styles/Login.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const Login = (): ReturnComponentType => {

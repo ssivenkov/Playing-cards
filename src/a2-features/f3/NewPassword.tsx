@@ -9,7 +9,7 @@ import { AppRootState } from 'a1-main/m2-bll/store';
 import { renamePasswordTC } from 'a1-main/m2-bll/thunks/password-thunk';
 import { CONFIRM_PASSWORD, EMPTY_STRING, PASSWORD, ZERO_LENGTH } from 'constants/common';
 import { PATH } from 'enums/routes';
-import style from 'styles/Login.module.css';
+import style from 'styles/Login.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export type ReamePasswordType = {

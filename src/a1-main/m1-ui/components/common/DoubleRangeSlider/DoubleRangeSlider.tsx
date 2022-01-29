@@ -1,6 +1,6 @@
 import React from 'react';
 
-import 'styles/DoubleRangeSlider.css';
+import 'styles/DoubleRangeSlider.scss';
 import 'nouislider/dist/nouislider.css';
 import Nouislider from 'nouislider-react';
 

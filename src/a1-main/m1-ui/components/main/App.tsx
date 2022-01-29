@@ -9,7 +9,7 @@ import { ErrorAll } from 'a1-main/m1-ui/components/common/ErrorPages/ErrorAll';
 import { Spinner } from 'a1-main/m1-ui/components/common/Spinner';
 import { AppRootState } from 'a1-main/m2-bll/store';
 import { getAuthUserData } from 'a1-main/m2-bll/thunks/auth-thunk';
-import style from 'styles/App.module.css';
+import style from 'styles/App.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const App: FC = (): ReturnComponentType => {

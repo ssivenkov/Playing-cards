@@ -10,7 +10,7 @@ import { AppRootState } from 'a1-main/m2-bll/store';
 import { deleteAuthUserData } from 'a1-main/m2-bll/thunks/auth-thunk';
 import { ZERO } from 'constants/common';
 import { PATH } from 'enums/routes';
-import style from 'styles/Header.module.css';
+import style from 'styles/Header.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const Header = (): ReturnComponentType => {

@@ -6,7 +6,7 @@ import { ReturnComponentType } from '../../../../../types/ReturnComponentType';
 import { setErrorMessageAC } from '../../../../m2-bll/actions/app-actions';
 import { AppRootState } from '../../../../m2-bll/store';
 
-import s from 'styles/App.module.css';
+import s from 'styles/App.module.scss';
 
 export const ErrorAll = (): ReturnComponentType => {
   const error = useSelector<AppRootState, boolean>(state => state.app.error);

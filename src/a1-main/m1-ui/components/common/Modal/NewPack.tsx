@@ -4,7 +4,7 @@ import { Button } from '../CustomButton/Button';
 import { Input } from '../CustomInput/Input';
 
 import { EMPTY_STRING } from 'constants/common';
-import s from 'styles/Modal.module.css';
+import s from 'styles/Modal.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 type NewPackType = {

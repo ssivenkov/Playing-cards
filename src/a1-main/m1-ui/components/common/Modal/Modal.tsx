@@ -1,6 +1,6 @@
 import React from 'react';
 
-import s from 'styles/Modal.module.css';
+import s from 'styles/Modal.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 type ModalType = {

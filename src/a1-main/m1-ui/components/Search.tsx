@@ -9,7 +9,7 @@ import { AppRootState } from 'a1-main/m2-bll/store';
 import { searchPacks } from 'a1-main/m2-bll/thunks/search-thunk';
 import { SearchType } from 'a1-main/m3-dal/types/searchType';
 import { EMPTY_STRING, SEARCH } from 'constants/common';
-import s from 'styles/Search.module.css';
+import s from 'styles/Search.module.scss';
 
 export const Search: FC<SearchType> = ({ userId }): React.ReactElement => {
   const dispatch = useDispatch();

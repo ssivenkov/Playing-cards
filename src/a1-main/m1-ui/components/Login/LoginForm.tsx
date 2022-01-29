@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Outlet } from 'react-router-dom';
 
-import s from 'styles/App.module.css';
+import s from 'styles/App.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const LoginForm = (): ReturnComponentType => (

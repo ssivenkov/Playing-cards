@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { Button } from 'a1-main/m1-ui/components/common/CustomButton/Button';
 import { PATH } from 'enums/routes';
-import style from 'styles/Button.module.css';
+import style from 'styles/Button.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 type TableActionButtonsType = {

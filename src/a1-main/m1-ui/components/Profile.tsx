@@ -44,9 +44,9 @@ import {
   ZERO,
 } from 'constants/common';
 import { PATH } from 'enums/routes';
-import s from 'styles/Cards.module.css';
-import st from 'styles/Search.module.css';
-import style from 'styles/Sidebar.module.css';
+import s from 'styles/Cards.module.scss';
+import st from 'styles/Search.module.scss';
+import style from 'styles/Sidebar.module.scss';
 import { Nullable } from 'types/Nullable';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 

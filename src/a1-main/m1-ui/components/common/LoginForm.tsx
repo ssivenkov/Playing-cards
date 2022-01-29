@@ -3,7 +3,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { Outlet } from 'react-router-dom';
 
-import s from '../../../../styles/App.module.css';
+import s from '../../../../styles/App.module.scss';
 import { ReturnComponentType } from '../../../../types/ReturnComponentType';
 import { AppRootState } from '../../../m2-bll/store';
 

@@ -7,7 +7,7 @@ import { TableActionButtons } from 'a1-main/m1-ui/components/common/TableActions
 import { TableNavigateButtons } from 'a1-main/m1-ui/components/common/TableNavigateButtons';
 import { AppRootState } from 'a1-main/m2-bll/store';
 import { FIRST_ELEMENT, SECOND_ELEMENT } from 'constants/common';
-import s from 'styles/Table.module.css';
+import s from 'styles/Table.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 type UniversalTableType = {

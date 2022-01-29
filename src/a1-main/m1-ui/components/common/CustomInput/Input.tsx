@@ -6,7 +6,7 @@ import { setEmailAC } from '../../../../m2-bll/actions/app-actions';
 
 import { CustomInputType } from './types/CustomInputType';
 
-import style from 'styles/Input.module.css';
+import style from 'styles/Input.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const Input: FC<CustomInputType> = ({

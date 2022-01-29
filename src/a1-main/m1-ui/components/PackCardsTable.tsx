@@ -33,8 +33,8 @@ import {
 import { searchPacks } from 'a1-main/m2-bll/thunks/search-thunk';
 import { EMPTY_STRING, FIRST_PAGE, ZERO } from 'constants/common';
 import { PATH } from 'enums/routes';
-import s from 'styles/Cards.module.css';
-import st from 'styles/Search.module.css';
+import s from 'styles/Cards.module.scss';
+import st from 'styles/Search.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const PacksCardsTable = (): ReturnComponentType => {

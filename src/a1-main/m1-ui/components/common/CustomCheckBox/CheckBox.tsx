@@ -2,7 +2,7 @@ import { ChangeEvent, FC, memo } from 'react';
 
 import { CheckboxType } from './types/checkBoxType';
 
-import style from 'styles/CheckBox.module.css';
+import style from 'styles/CheckBox.module.scss';
 import { ReturnComponentType } from 'types/ReturnComponentType';
 
 export const Checkbox: FC<CheckboxType> = memo(
